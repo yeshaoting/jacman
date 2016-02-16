@@ -15,11 +15,13 @@ widgets:
 - github-card
 - category
 - tag
+- tagcloud
+- archive
 - visitor
 - links
 - douban
 - rss
-- weibo
+##- weibo
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
 
 
@@ -46,7 +48,7 @@ highlight_theme: default
 #### index post is expanding or not 
 index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: Read More  
+  excerpt_link: 阅读全文  
 
 close_aside: false  #close sidebar in post page if true
 mathjax: false      #enable mathjax if true
@@ -58,10 +60,10 @@ creative_commons: none
 #### Author information
 author:
   intro_line1:  "Hello, I'm yeshaoting in Meituan."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line2:  "This is my blog, believe it or not."  ## the 2nd line
   weibo: 1873363984     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  weibo_verifier: ## b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  tsina: 1873363984    ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
   email: yeshaoting@163.com     ## e.g. imjark@gmail.com
@@ -94,9 +96,12 @@ disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  id: 2084038   ## e.g. 1889330 your jiathis ID. 
+  tsina: 1873363984 ## e.g. 2176287895 Your weibo id,It will be used in share button.
+
+bdshare:
+  enable: false ## if you use baidu share as your share tool,the built-in share tool won't be display.
 
 #### Analytics
 google_analytics:
@@ -107,7 +112,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: true
-  sitecode: e6d1f421bbc9962127a50488f9ed37d1 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: eb5e209be04761d479ee5af429678d66 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
