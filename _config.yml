@@ -105,9 +105,9 @@ bdshare:
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:        ## e.g. UA-46321946-2 your google analytics ID.
-  site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
+  enable: true
+  id: UA-74356889-1       ## e.g. UA-46321946-2 your google analytics ID.
+  site: yeshaoting.cn     ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
@@ -115,8 +115,8 @@ baidu_tongji:
   sitecode: 7b8ea756d29e27c324bd3aba722c4a75 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
   #sitecode: eb5e209be04761d479ee5af429678d66 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
-  enable: false
-  siteid:    ## e.g. 1253575964 your cnzz tongji site id
+  enable: true
+  siteid: 1257660126   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
