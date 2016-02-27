@@ -64,7 +64,7 @@ author:
   weibo: 1873363984     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: ## b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina: 1873363984    ## e.g. 2176287895  Your weibo ID,It will be used in share button.
-  douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  douban: yeshaoting    ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
   email: yeshaoting@163.com     ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
