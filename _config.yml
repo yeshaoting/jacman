@@ -14,10 +14,10 @@ menu:
 widgets: 
 ##- github-card
 - category
-- visitor
 ##- tag
 - tagcloud
 - archive
+- visitor
 - links
 - rss
 ##- douban
