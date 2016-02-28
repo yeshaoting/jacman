@@ -14,8 +14,8 @@ menu:
 widgets: 
 ##- github-card
 - category
-##- tag
-- tagcloud
+- tag
+##- tagcloud
 - archive
 - visitor
 - links
