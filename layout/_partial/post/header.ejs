@@ -12,6 +12,6 @@
 		<% } %>
   <p class="article-time">
     <time datetime="<%= date_xml(item.date) %>" itemprop="datePublished"> <%= __('datepublished') %> <%= item.date.format(config.date_format) %></time>
-    
+    <time postupdated="<%= date_xml(item.updated) %>" itemprop="dateModified"> <%= __('dateModified') %> <%= item.updated.format(config.date_format) %></time> 
   </p>
 </header>
