@@ -13,11 +13,11 @@ menu:
 #### Widgets
 widgets: 
 ##- github-card
+#- tag
+- tagcloud
 - category
-- tag
-##- tagcloud
-- archive
 - visitor
+#- archive
 - links
 - rss
 ##- douban
